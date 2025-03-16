@@ -1,0 +1,1505 @@
+{
+	"ID": "74a68a984824b4510d12589f199ad68f",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6605,
+	"Data": [
+		{
+			"ID": "74a68a984824b4510d12589f199ad68f",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 100
+			}
+		},
+		{
+			"ID": "6ff0581d474c84230b3d0fa9f17e0972",
+			"TypeName": "ExitOnEsc",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"V": {}
+		},
+		{
+			"ID": "28c54b704371c9c8c7fee3965ce010a8",
+			"TypeName": "Game.SpectatorModeOnG",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"V": {
+	"Player": "71e8a0fe4e1d11ae752019a8f078ea11",
+	"PlayerCamera": "b58207f14572813c126cdb9f46a24f69"
+}
+		},
+		{
+			"ID": "28553d634087c67c711ebd96080482aa",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Visuals"
+		},
+		{
+			"ID": "bc81376747666609b0974580a21519a1",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": -69.65292358398438,
+					"Y": 124.01800537109375,
+					"Z": 35.34806823730469
+				}
+			},
+			"Sun": "deecf0894777293a4f478dadacf2a6f8"
+		},
+		{
+			"ID": "da5e1c454a56377517d41686ebb0348f",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Environment Probe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 544.7724609375,
+					"Z": 0.0
+				}
+			},
+			"ProbeID": "1e1fb3a7447c1265b15967b480549d98"
+		},
+		{
+			"ID": "deecf0894777293a4f478dadacf2a6f8",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Directional Light",
+			"Transform": {
+				"Translation": {
+					"X": -1.6893305778503419,
+					"Y": 602.7049560546875,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.06162845715880394,
+					"Y": -0.704416036605835,
+					"Z": 0.06162845715880394,
+					"W": 0.704416036605835
+				}
+			},
+			"Color": {
+				"R": 0.855128824710846,
+				"G": 1.0,
+				"B": 0.9215977191925049,
+				"A": 1.0
+			},
+			"Brightness": 3.140000104904175
+		},
+		{
+			"ID": "eb18e84d41670d6314174b89a1d5ffea",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 1400.0,
+					"Z": 0.0
+				}
+			},
+			"Brightness": 3.140000104904175,
+			"BakedProbe": "1c0e10484ff57d402275289550564b9f",
+			"Mode": 0
+		},
+		{
+			"ID": "44cac482438fd731f29392bc0c1aa7eb",
+			"PrefabID": "3a51221d4c1aaa02003c0a92cba60426",
+			"PrefabObjectID": "929612a04bc9dcb90e620da3a7f98ee1",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {}
+		},
+		{
+			"ID": "cc3188054fabde7afc5cabab36d9e0e5",
+			"PrefabID": "3a51221d4c1aaa02003c0a92cba60426",
+			"PrefabObjectID": "c80b0a024f6a26fb3e5c02b4cb82e502",
+			"ParentID": "44cac482438fd731f29392bc0c1aa7eb",
+			"Data": {}
+		},
+		{
+			"ID": "03cf05784579e7b16acd9a894e1814c8",
+			"PrefabID": "3a51221d4c1aaa02003c0a92cba60426",
+			"PrefabObjectID": "0785b7b341616afc5b5b919d0e371f3e",
+			"ParentID": "44cac482438fd731f29392bc0c1aa7eb",
+			"Data": {}
+		},
+		{
+			"ID": "cce48271454bf7f7e9e652b9ce3a9111",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Map"
+		},
+		{
+			"ID": "4a9d87134ab42f4294db6bbcf1902bde",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "cce48271454bf7f7e9e652b9ce3a9111",
+			"Name": "Floor",
+			"Transform": {
+				"Scale": {
+					"X": 1000.0,
+					"Y": 0.5,
+					"Z": 1000.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4a7045e748c74e3de29afd8856f99205",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4a9d87134ab42f4294db6bbcf1902bde",
+			"Name": "BoxCollider",
+			"Material": "7cb34fea431a2f68fd420382e86c2094"
+		},
+		{
+			"ID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cce48271454bf7f7e9e652b9ce3a9111",
+			"Name": "House",
+			"Transform": {
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			}
+		},
+		{
+			"ID": "ea5cdbfc4b7213c51b7dc2af2d51a273",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Ball's Floor",
+			"Transform": {
+				"Translation": {
+					"X": 129.0310821533203,
+					"Y": 13.634765625,
+					"Z": 78.88162231445313
+				},
+				"Scale": {
+					"X": 1.0175001621246338,
+					"Y": 0.08648748695850373,
+					"Z": 1.0175001621246338
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5fcb1d6b403992466de3aba94e05eb15",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "ea5cdbfc4b7213c51b7dc2af2d51a273"
+		},
+		{
+			"ID": "baf2611d4970c0c27f8835ba57012adc",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Transform": {
+				"Translation": {
+					"X": -78.47927856445313,
+					"Y": 244.70675659179688,
+					"Z": 844.3424682617188
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 5.0,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "53c171d44b38282b2f46bda617b46d67",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "baf2611d4970c0c27f8835ba57012adc"
+		},
+		{
+			"ID": "25bc3dd74d05c85088d6e087633a1771",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 912.593994140625,
+					"Y": 244.70675659179688,
+					"Z": -148.18508911132813
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 5.0,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1706aa4249b78aa6c993eda0dc6fbbe3",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "25bc3dd74d05c85088d6e087633a1771"
+		},
+		{
+			"ID": "c2eba16242d776b2fabbbe965e5be299",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -78.47927856445313,
+					"Y": 244.70675659179688,
+					"Z": -1136.72900390625
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 5.0,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "21081a394b86b028c1ca698a70b4a1bb",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "c2eba16242d776b2fabbbe965e5be299"
+		},
+		{
+			"ID": "2fc8e62b4c4cb890ec7ca996967ededf",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": -1066.609619140625,
+					"Y": 367.6803283691406,
+					"Z": -148.18508911132813
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 2.5,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bf34f9c74080065f2126c1bd2d81d9fc",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "2fc8e62b4c4cb890ec7ca996967ededf"
+		},
+		{
+			"ID": "31b81d5c45863e8984eb89815786eb06",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": -1066.609619140625,
+					"Y": 119.87533569335938,
+					"Z": -771.6566162109375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 7.5,
+					"Y": 2.5,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "dc9641a8488df004c01decb77ee03517",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "31b81d5c45863e8984eb89815786eb06"
+		},
+		{
+			"ID": "78a2d53840571f514119b3871eb2efce",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": -1066.609619140625,
+					"Y": 119.87533569335938,
+					"Z": 479.9591064453125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 7.5,
+					"Y": 2.5,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bab460704458b62d005ccb8308d4d359",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "78a2d53840571f514119b3871eb2efce"
+		},
+		{
+			"ID": "22e338d6429b6f208daf938073815003",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "1f8903a249f32eb7c1ee81ad231b9a02",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": -78.09716796875,
+					"Y": 487.5536193847656,
+					"Z": -150.30169677734376
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 0.30000001192092898,
+					"Z": 20.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5665d1104f21eb8349686ab243350621",
+			"PrefabID": "cb0c9cdb42b4ac165582b1b3d1e0f495",
+			"PrefabObjectID": "d1d2ea6040771324465498ba9f8c5bb7",
+			"ParentID": "22e338d6429b6f208daf938073815003"
+		},
+		{
+			"ID": "532bcd0442937d252f2f50b7806d87f9",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "52ab7c384a51a7e1bc0e0b90113aec4c",
+			"Name": "LightingSystem",
+			"Transform": {
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.5,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "58e84fa241cb8087324b77b8112f6a16",
+			"TypeName": "Game.AutomaticLightSystem",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"V": {
+	"lightElements": [
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "088da8de4c70d7450103ea85e213c664",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "172ab64149791e46359b44bb5318aae2"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "7192fe5f4ccc4a4688421f9696286556",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "a539c34649ed3e1ef3ac3ea5732e2608"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "29b95d4e4cad055a171a999a9e0db6e0",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "ec969b194d535ef15a4334930a29d4c4"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "77bb03774983af12dc1981b0207cfdd7",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "5d71a21d4cef3300ece854ae63885321"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "40d9888a4427d07b9602aebda1b5d139",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "91e96763473afbd1af4910a5b01ad63d"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "9193c26b48497c98cff17e88c94800be",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "d92b19dd4ad42da9d290cda7a8d3c289"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "76dde38f4cb31a28e60eb6b4e040dfda",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "6ef8ba4545f8f7843173b4877d5233bf"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "93065cdd44b9b5f347a9d6a23c5fc181",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "8c12215340a5af9eced79c824d27e0be"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "7f9fcbec49f5464be0af549ad3cbdbc5",
+				"brightnessOn": 100.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "19a9a2b040953e1ef668deadb4bca8a9"
+		},
+		{
+			"Item1": {
+				"_lightOn": false,
+				"light": "42be96d34d3073635d2ccdb4a9679d2e",
+				"brightnessOn": 10.0,
+				"brightnessOff": 1.0
+			},
+			"Item2": "a0f31d48461304c2454cd89d983ed0f0"
+		}
+	],
+	"animationTimer": 150.0
+}
+		},
+		{
+			"ID": "fda7b5374fe27350526a3fbed4d7867f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 925.2449340820313,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "22233f564fdc681c43750988b6d87559",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fda7b5374fe27350526a3fbed4d7867f",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "aeea1b4541e2fcc19bfb069b7d0ea99c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "22233f564fdc681c43750988b6d87559",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "088da8de4c70d7450103ea85e213c664",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "fda7b5374fe27350526a3fbed4d7867f",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "172ab64149791e46359b44bb5318aae2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "fda7b5374fe27350526a3fbed4d7867f",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "3ce849344b872edc0f8f299c0c10275a",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 0",
+			"Transform": {
+				"Translation": {
+					"X": -1170.0,
+					"Y": 925.2449340820313,
+					"Z": -320.0
+				}
+			}
+		},
+		{
+			"ID": "46931e574eff4df0ec6701bd55fdb0dc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3ce849344b872edc0f8f299c0c10275a",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "12e608584755ad57a415b6a54ac075a7",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "46931e574eff4df0ec6701bd55fdb0dc",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "7192fe5f4ccc4a4688421f9696286556",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "3ce849344b872edc0f8f299c0c10275a",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "a539c34649ed3e1ef3ac3ea5732e2608",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3ce849344b872edc0f8f299c0c10275a",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "fd82e0e84d746e442aec02b54b84777f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 1",
+			"Transform": {
+				"Translation": {
+					"X": 830.0,
+					"Y": 925.2449340820313,
+					"Z": -320.0
+				}
+			}
+		},
+		{
+			"ID": "ed1aa8864c071c027168fe8b6fd85059",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fd82e0e84d746e442aec02b54b84777f",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0ca9ec8a49716590f0b53aa313424cb5",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ed1aa8864c071c027168fe8b6fd85059",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "29b95d4e4cad055a171a999a9e0db6e0",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "fd82e0e84d746e442aec02b54b84777f",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "ec969b194d535ef15a4334930a29d4c4",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "fd82e0e84d746e442aec02b54b84777f",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "b2a850cc4e17880bc1af378ab18f1877",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 2",
+			"Transform": {
+				"Translation": {
+					"X": 830.0,
+					"Y": 925.2449340820313,
+					"Z": -1320.0
+				}
+			}
+		},
+		{
+			"ID": "e821d5714e11de5b46d0e6b8b684694a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b2a850cc4e17880bc1af378ab18f1877",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b20266a34cfc059899b6f88de8008a04",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e821d5714e11de5b46d0e6b8b684694a",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "40d9888a4427d07b9602aebda1b5d139",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "b2a850cc4e17880bc1af378ab18f1877",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "91e96763473afbd1af4910a5b01ad63d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b2a850cc4e17880bc1af378ab18f1877",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "c1a737ae485349025eacc5aaf3c4d3f7",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 3",
+			"Transform": {
+				"Translation": {
+					"X": 830.0,
+					"Y": 925.2449340820313,
+					"Z": 680.0
+				}
+			}
+		},
+		{
+			"ID": "0d3b02884956f08426f7e78e50558641",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c1a737ae485349025eacc5aaf3c4d3f7",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fd103e0e4e635807a9366a93c07bd296",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0d3b02884956f08426f7e78e50558641",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "77bb03774983af12dc1981b0207cfdd7",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "c1a737ae485349025eacc5aaf3c4d3f7",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "5d71a21d4cef3300ece854ae63885321",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "c1a737ae485349025eacc5aaf3c4d3f7",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "e4dfa60d46b735f6a549dc9902e5ef11",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 4",
+			"Transform": {
+				"Translation": {
+					"X": -170.0,
+					"Y": 925.2449340820313,
+					"Z": 680.0
+				}
+			}
+		},
+		{
+			"ID": "487a90e34f8cef6a79aa46bf06c6b5bd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e4dfa60d46b735f6a549dc9902e5ef11",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2858164a43c60b0f8c9ff08c30f1a3bc",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "487a90e34f8cef6a79aa46bf06c6b5bd",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9193c26b48497c98cff17e88c94800be",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "e4dfa60d46b735f6a549dc9902e5ef11",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "d92b19dd4ad42da9d290cda7a8d3c289",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e4dfa60d46b735f6a549dc9902e5ef11",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "37c8aa2145883dd6af434b81d0008449",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 5",
+			"Transform": {
+				"Translation": {
+					"X": -170.0,
+					"Y": 925.2449340820313,
+					"Z": -1320.0
+				}
+			}
+		},
+		{
+			"ID": "3ca3b6eb4e49974ed8a6f0b13314d484",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "37c8aa2145883dd6af434b81d0008449",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f3e5d7a64f01c2be6d1561a9f7151b95",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3ca3b6eb4e49974ed8a6f0b13314d484",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "76dde38f4cb31a28e60eb6b4e040dfda",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "37c8aa2145883dd6af434b81d0008449",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "6ef8ba4545f8f7843173b4877d5233bf",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "37c8aa2145883dd6af434b81d0008449",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "d234f235401a7a751256f58396b3c18d",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 6",
+			"Transform": {
+				"Translation": {
+					"X": -1170.0,
+					"Y": 925.2449340820313,
+					"Z": 680.0
+				}
+			}
+		},
+		{
+			"ID": "de99c2d847dc474490ab51b257a15ea7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d234f235401a7a751256f58396b3c18d",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5067ccea4a9e6bad8ee8c7b414b8615a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "de99c2d847dc474490ab51b257a15ea7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "93065cdd44b9b5f347a9d6a23c5fc181",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "d234f235401a7a751256f58396b3c18d",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "8c12215340a5af9eced79c824d27e0be",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d234f235401a7a751256f58396b3c18d",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "aafc27514fa3a2b7118973bce05093fc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "LightObject 7",
+			"Transform": {
+				"Translation": {
+					"X": -1170.0,
+					"Y": 925.2449340820313,
+					"Z": -1320.0
+				}
+			}
+		},
+		{
+			"ID": "a4133f40494eac6db12df1a5f78daa25",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "aafc27514fa3a2b7118973bce05093fc",
+			"Name": "Cube",
+			"Transform": {
+				"Scale": {
+					"X": 2.5,
+					"Y": 0.5,
+					"Z": 2.5
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3f6931724644bfcdbd0ff0b72fd5cca7",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a4133f40494eac6db12df1a5f78daa25",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "7f9fcbec49f5464be0af549ad3cbdbc5",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "aafc27514fa3a2b7118973bce05093fc",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 350.0
+		},
+		{
+			"ID": "19a9a2b040953e1ef668deadb4bca8a9",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "aafc27514fa3a2b7118973bce05093fc",
+			"Name": "TriggerBox",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -460.9580078125,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 950.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "e1c92bcc4eb069c29f0a5e9c605ec5ef",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "532bcd0442937d252f2f50b7806d87f9",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": -798.3696899414063,
+					"Y": 49.01094055175781,
+					"Z": 602.658447265625
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 0.5,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "382f1ae946c519eff6e6f3a2965cf56b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f05185004d85b1695fc5b1ae710ba373",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e1c92bcc4eb069c29f0a5e9c605ec5ef",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "42be96d34d3073635d2ccdb4a9679d2e",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "e1c92bcc4eb069c29f0a5e9c605ec5ef",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 1.01885986328125,
+					"Y": 181.93344116210938,
+					"Z": -0.380615234375
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 2.0,
+					"Z": 1.0
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Brightness": 1.0,
+			"Radius": 400.0
+		},
+		{
+			"ID": "a0f31d48461304c2454cd89d983ed0f0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "42be96d34d3073635d2ccdb4a9679d2e",
+			"Name": "BoxCollider",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -57.0,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 1000.0,
+				"Y": 100.0,
+				"Z": 1000.0
+			}
+		},
+		{
+			"ID": "71e8a0fe4e1d11ae752019a8f078ea11",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "15a6c89049ce699b93666da027e2b1fe",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 169.02281188964845,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "216228834dc33b8789b712aa223e77c6",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "ac5b03fd4159da8dbfcaf3ac332a2899",
+			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
+			"V": {
+	"characterController": "71e8a0fe4e1d11ae752019a8f078ea11",
+	"camera": "b58207f14572813c126cdb9f46a24f69",
+	"cameraHolder": "ab005ed64f555c2a829b98b127b016c3"
+}
+		},
+		{
+			"ID": "06a2c9c447a7783a3cc62f9ef476045c",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "f43893a44855ef61bc6e9982d4f48011",
+			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
+			"V": {}
+		},
+		{
+			"ID": "512bf0734ba837724e63509a9cf61e42",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "61938bb544fb0dc7b69b01a17babe97b",
+			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
+			"V": {
+	"PlayerStats": "06a2c9c447a7783a3cc62f9ef476045c"
+}
+		},
+		{
+			"ID": "4c9eec894459d90fa2b3d98c1be428d5",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "f0a64b6a4d1362d8c63e51b011ab3c47",
+			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ab005ed64f555c2a829b98b127b016c3",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "7b189c0e4e1507ecc2911cb90813bd62",
+			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11"
+		},
+		{
+			"ID": "b58207f14572813c126cdb9f46a24f69",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "cc7159f74cb7ecf99fd96b96f32d9f96",
+			"ParentID": "ab005ed64f555c2a829b98b127b016c3"
+		},
+		{
+			"ID": "4327e8d04b3c1d47b7bccbb943eea5fa",
+			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
+			"PrefabObjectID": "ef9e02224c13616a53ce76b553c38cd7",
+			"ParentID": "b58207f14572813c126cdb9f46a24f69",
+			"V": {}
+		},
+		{
+			"ID": "e55055d9406d350f6bd3c5b0134e7b84",
+			"PrefabID": "e3f7a9044b0835d25b4a51bf61148951",
+			"PrefabObjectID": "6610d7724ad47715766e148fa50ff606",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Transform": {
+				"Translation": {
+					"X": 258.0621643066406,
+					"Y": 500.0,
+					"Z": 157.76324462890626
+				},
+				"Scale": {
+					"X": 1.5,
+					"Y": 1.5,
+					"Z": 1.5
+				}
+			}
+		},
+		{
+			"ID": "c749da60451c3426cf30e3a5a0077d79",
+			"PrefabID": "e3f7a9044b0835d25b4a51bf61148951",
+			"PrefabObjectID": "a105545c45f3f9c54d4768b729c10ee4",
+			"ParentID": "e55055d9406d350f6bd3c5b0134e7b84",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a4a0894d4d0c93d857fcfcadfe4cc390",
+			"PrefabID": "e3f7a9044b0835d25b4a51bf61148951",
+			"PrefabObjectID": "4f79638446a9fe3d83496eb1b527ae01",
+			"ParentID": "e55055d9406d350f6bd3c5b0134e7b84"
+		}
+	]
+}

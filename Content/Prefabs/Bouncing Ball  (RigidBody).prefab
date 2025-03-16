@@ -1,0 +1,39 @@
+{
+	"ID": "e3f7a9044b0835d25b4a51bf61148951",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6605,
+	"Data": [
+	{
+		"ID": "6610d7724ad47715766e148fa50ff606",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Bouncing Ball  (RigidBody)",
+		"OverrideMass": true,
+		"Mass": 9.999999974752428e-7
+	},
+	{
+		"ID": "a105545c45f3f9c54d4768b729c10ee4",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "6610d7724ad47715766e148fa50ff606",
+		"Name": "Sphere",
+		"Model": "dd86c4724bf734c4959d23b3c74faa05",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "e286a41149281006c3ce41aedd487888",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "4f79638446a9fe3d83496eb1b527ae01",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "6610d7724ad47715766e148fa50ff606",
+		"Name": "SphereCollider",
+		"Material": "2c2eb7864e5e4b83272a6e868c3e0d99"
+	}
+]
+}

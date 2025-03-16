@@ -1,0 +1,93 @@
+{
+	"ID": "74eb06494dc0681f7976e1a9b6c6fcef",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6605,
+	"Data": [
+	{
+		"ID": "15a6c89049ce699b93666da027e2b1fe",
+		"TypeName": "FlaxEngine.CharacterController",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Player"
+	},
+	{
+		"ID": "ac5b03fd4159da8dbfcaf3ac332a2899",
+		"TypeName": "Game.PlayerController",
+		"ParentID": "15a6c89049ce699b93666da027e2b1fe",
+		"V": {
+			"characterController": "15a6c89049ce699b93666da027e2b1fe",
+			"camera": "cc7159f74cb7ecf99fd96b96f32d9f96",
+			"cameraHolder": "7b189c0e4e1507ecc2911cb90813bd62"
+		}
+	},
+	{
+		"ID": "f43893a44855ef61bc6e9982d4f48011",
+		"TypeName": "Game.PlayerStats",
+		"ParentID": "15a6c89049ce699b93666da027e2b1fe",
+		"V": {}
+	},
+	{
+		"ID": "61938bb544fb0dc7b69b01a17babe97b",
+		"TypeName": "Game.PlayerStatsGUI",
+		"ParentID": "15a6c89049ce699b93666da027e2b1fe",
+		"V": {
+			"HealthBar": "cc3188054fabde7afc5cabab36d9e0e5",
+			"PlayerStats": "f43893a44855ef61bc6e9982d4f48011"
+		}
+	},
+	{
+		"ID": "f0a64b6a4d1362d8c63e51b011ab3c47",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "15a6c89049ce699b93666da027e2b1fe",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": -125.0,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 1.9500001668930057,
+				"Y": 2.4600000381469728,
+				"Z": 1.9500001668930057
+			}
+		},
+		"Model": "3f82e57744f57c28285150b646ad2198",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "92ff424941e625f2045d49a1616ec3b8",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "7b189c0e4e1507ecc2911cb90813bd62",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "15a6c89049ce699b93666da027e2b1fe",
+		"Name": "CameraHolder"
+	},
+	{
+		"ID": "cc7159f74cb7ecf99fd96b96f32d9f96",
+		"TypeName": "FlaxEngine.Camera",
+		"ParentID": "7b189c0e4e1507ecc2911cb90813bd62",
+		"Name": "Camera",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 75.0,
+				"Z": 0.0
+			}
+		}
+	},
+	{
+		"ID": "ef9e02224c13616a53ce76b553c38cd7",
+		"TypeName": "FreeCamera",
+		"ParentID": "cc7159f74cb7ecf99fd96b96f32d9f96",
+		"V": {},
+		"Enabled": false
+	}
+]
+}
