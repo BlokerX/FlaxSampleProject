@@ -1,0 +1,21 @@
+{
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"gulp.autoDetect": "off",
+		"jake.autoDetect": "off",
+		"grunt.autoDetect": "off",
+		"omnisharp.useModernNet": true,
+		"dotnet.defaultSolution": "FlaxSampleProject.sln"
+	},
+	"folders": [
+		{
+			"name": "FlaxSampleProject",
+			"path": "."
+		},
+		{
+			"name": "Flax",
+			"path": "D:\\Program Files\\Flax\\Flax_1.9"
+		}
+	]
+}

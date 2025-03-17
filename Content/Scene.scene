@@ -128,6 +128,7 @@
 			"PrefabID": "3a51221d4c1aaa02003c0a92cba60426",
 			"PrefabObjectID": "c80b0a024f6a26fb3e5c02b4cb82e502",
 			"ParentID": "44cac482438fd731f29392bc0c1aa7eb",
+			"Name": "HP ProgressBar",
 			"Data": {}
 		},
 		{
@@ -135,6 +136,7 @@
 			"PrefabID": "3a51221d4c1aaa02003c0a92cba60426",
 			"PrefabObjectID": "0785b7b341616afc5b5b919d0e371f3e",
 			"ParentID": "44cac482438fd731f29392bc0c1aa7eb",
+			"Name": "HP Label",
 			"Data": {}
 		},
 		{
@@ -1425,7 +1427,9 @@
 			"PrefabID": "74eb06494dc0681f7976e1a9b6c6fcef",
 			"PrefabObjectID": "f43893a44855ef61bc6e9982d4f48011",
 			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
-			"V": {}
+			"V": {
+	"Health": 50
+}
 		},
 		{
 			"ID": "512bf0734ba837724e63509a9cf61e42",
@@ -1433,6 +1437,8 @@
 			"PrefabObjectID": "61938bb544fb0dc7b69b01a17babe97b",
 			"ParentID": "71e8a0fe4e1d11ae752019a8f078ea11",
 			"V": {
+	"HealthBar": "cc3188054fabde7afc5cabab36d9e0e5",
+	"HealthLabel": "03cf05784579e7b16acd9a894e1814c8",
 	"PlayerStats": "06a2c9c447a7783a3cc62f9ef476045c"
 }
 		},
@@ -1474,7 +1480,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 258.0621643066406,
-					"Y": 500.0,
+					"Y": 800.0,
 					"Z": 157.76324462890626
 				},
 				"Scale": {
@@ -1500,6 +1506,148 @@
 			"PrefabID": "e3f7a9044b0835d25b4a51bf61148951",
 			"PrefabObjectID": "4f79638446a9fe3d83496eb1b527ae01",
 			"ParentID": "e55055d9406d350f6bd3c5b0134e7b84"
+		},
+		{
+			"ID": "7fb9064944c6b60181a42aa3464085ae",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Healing Campfire",
+			"Transform": {
+				"Translation": {
+					"X": -167.60679626464845,
+					"Y": 53.449951171875,
+					"Z": 400.142578125
+				}
+			}
+		},
+		{
+			"ID": "c103972a4457e42148df1d830f3d7a7c",
+			"TypeName": "Game.CampfireScript",
+			"ParentID": "7fb9064944c6b60181a42aa3464085ae",
+			"V": {
+	"DamagingTrigger": "e0e423aa49db131a4b7bbca8693ada5d",
+	"HealingTrigger": "33a21ba04b5b4ce4673cc79f6e16b634",
+	"HealingInterval": 0.12,
+	"DamageInterval": 0.06
+}
+		},
+		{
+			"ID": "abf7c6974ee10a5719bdf68fd3659bdc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "7fb9064944c6b60181a42aa3464085ae",
+			"Name": "VisualModel"
+		},
+		{
+			"ID": "63ffd0e94478d3ed76f83c8f30be7696",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "abf7c6974ee10a5719bdf68fd3659bdc",
+			"Name": "MainCylinder",
+			"Transform": {
+				"Scale": {
+					"X": 1.2999999523162842,
+					"Y": 0.5,
+					"Z": 1.2999999523162842
+				}
+			},
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "b1df78574e435ad0ed024babaa24b3ef",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4122c8334431e37cfc0847a3b6ef4eb5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "abf7c6974ee10a5719bdf68fd3659bdc",
+			"Name": "DetailCylinder",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 20.0,
+					"Z": 0.0
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 0.25,
+					"Z": 1.0
+				}
+			},
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fc1f06fb4a3e6380cfc4a7882781946c",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "29b7672d4c45f392eeb5488ebd5fa477",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "abf7c6974ee10a5719bdf68fd3659bdc",
+			"Name": "Cone",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 47.5,
+					"Z": 0.0
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 0.5,
+					"Z": 1.0
+				}
+			},
+			"Model": "1b4a643d44706750b2e35ea4e11e3663",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fc1f06fb4a3e6380cfc4a7882781946c",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3a8c283f42b1aede8349c4a7dff08067",
+			"TypeName": "FlaxEngine.SphereCollider",
+			"ParentID": "7fb9064944c6b60181a42aa3464085ae",
+			"Name": "Collider (SphereCollider)",
+			"Radius": 70.0
+		},
+		{
+			"ID": "33a21ba04b5b4ce4673cc79f6e16b634",
+			"TypeName": "FlaxEngine.SphereCollider",
+			"ParentID": "7fb9064944c6b60181a42aa3464085ae",
+			"Name": "Healing Pole (SphereTrigger)",
+			"IsTrigger": true,
+			"Radius": 500.0
+		},
+		{
+			"ID": "e0e423aa49db131a4b7bbca8693ada5d",
+			"TypeName": "FlaxEngine.SphereCollider",
+			"ParentID": "7fb9064944c6b60181a42aa3464085ae",
+			"Name": "Damaging Pole (SphereTrigger)",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 25.0,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Radius": 100.0
 		}
 	]
 }

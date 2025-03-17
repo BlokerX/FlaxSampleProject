@@ -35,7 +35,7 @@ public class PlayerController : Script
     public float AccelerationMultiplier { get; set; } = 1.75f;
     public float SlowdownMultiplier { get; set; } = 0.5f;
 
-    private float Mass { get; set; } = 2f;
+    public float Mass { get; set; } = 2f;
     private float yVelocity { get; set; }
     public float JumpForce { get; set; } = 1000;
     private int jumpCount { get; set; } = 0;
@@ -63,6 +63,8 @@ public class PlayerController : Script
 
     public override void OnUpdate()
     {
+        #region Camera View Switching
+
         if (Input.GetKeyDown(KeyboardKeys.V))
         {
             if (cameraView == CameraView.FirstPerson)
@@ -76,6 +78,8 @@ public class PlayerController : Script
                 SetFirstPersonCameraView();
             }
         }
+
+        #endregion
 
         #region Camera Movement
 
@@ -157,7 +161,6 @@ public class PlayerController : Script
 
         #region Jump and Gravity
 
-        //yVelocity -= Gravity * Time.DeltaTime;
         yVelocity += Mass * Physics.Gravity.Y * Time.DeltaTime; // Gravity
 
         characterController.Move(new Vector3(0, yVelocity * Time.DeltaTime, 0));

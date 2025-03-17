@@ -1,0 +1,137 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FlaxSampleProject|Editor.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		},
+		{
+			"label": "FlaxSampleProject|Editor.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		},
+		{
+			"label": "FlaxSampleProject|Editor.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		},
+		{
+			"label": "FlaxSampleProject|Game.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		},
+		{
+			"label": "FlaxSampleProject|Game.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		},
+		{
+			"label": "FlaxSampleProject|Game.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "..\\..\\..\\Program Files\\Flax\\Flax_1.9\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Pliki_z_informatyki\\Flax\\FlaxSampleProject"
+			}
+		}
+	]
+}

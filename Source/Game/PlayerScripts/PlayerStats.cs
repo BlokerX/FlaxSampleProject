@@ -39,11 +39,13 @@ public class PlayerStats : Script
     public void Die()
     {
         // Here you can add code that needs to be called when player dies
+        Debug.Log("Player died");
     }
 
     public void Respawn()
     {
         Health = HealthMaxHealth;
+        Debug.Log("Player respawned");
     }
 
 }

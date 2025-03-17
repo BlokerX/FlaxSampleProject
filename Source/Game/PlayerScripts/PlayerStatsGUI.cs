@@ -10,6 +10,8 @@ namespace Game
         public float HealthCriticPoint { get; set; } = 30;
         public UIControl HealthBar;
         private ProgressBar _healthBar;
+        public UIControl HealthLabel;
+        private Label _healthLabel;
 
         public override void OnStart()
         {
@@ -17,10 +19,17 @@ namespace Game
                 _healthBar = HealthBar.Get<ProgressBar>();
             else
                 throw new Exception("HealthBar is not ProgressBar");
+
+            if (HealthLabel != null && HealthLabel.Is<Label>())
+                _healthLabel = HealthLabel.Get<Label>();
+            else
+                throw new Exception("HealthLabel is not ProgressBar");
         }
 
         public override void OnUpdate()
         {
+            _healthLabel.Text = "HP: " + PlayerStats.Health + "%";
+
             _healthBar.Value = PlayerStats.Health;
             _healthBar.BarColor = PlayerStats.Health <= HealthCriticPoint ? Color.Red.AlphaMultiplied(0.5f) : Color.SpringGreen.AlphaMultiplied(0.5f);
         }

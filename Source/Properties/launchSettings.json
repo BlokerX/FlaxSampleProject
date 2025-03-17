@@ -2,9 +2,9 @@
   "profiles": {
     "Game": {
       "commandName": "Executable",
-      "workingDirectory": "C:/Users/Jakub/Projekty/Flax/FlaxSampleProject",
-      "executablePath": "C:/Program Files (x86)/Flax/Flax_1.9/Binaries/Editor/Win64/Development/FlaxEditor.exe",
-      "commandLineArgs": "-project \"C:/Users/Jakub/Projekty/Flax/FlaxSampleProject\"",
+      "workingDirectory": "D:/Pliki_z_informatyki/Flax/FlaxSampleProject",
+      "executablePath": "D:/Program Files/Flax/Flax_1.9/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"D:/Pliki_z_informatyki/Flax/FlaxSampleProject\"",
       "nativeDebugging": false
     }
   }
