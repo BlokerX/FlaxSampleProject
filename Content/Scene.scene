@@ -1473,6 +1473,46 @@
 			"V": {}
 		},
 		{
+			"ID": "fc3222794cbd26bce7b050b21793b5bb",
+			"PrefabID": "c96040df4960ccd3c234bd966b583c7a",
+			"PrefabObjectID": "3d36b183423ba19f2edeacaa43bce7fe",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Transform": {
+				"Translation": {
+					"X": -375.777587890625,
+					"Y": 79.18647766113281,
+					"Z": 953.8621215820313
+				}
+			}
+		},
+		{
+			"ID": "6c30ccf445da7722ee418e99cd7370cc",
+			"PrefabID": "c96040df4960ccd3c234bd966b583c7a",
+			"PrefabObjectID": "e8a7e72943fc1928b538eab583acc57c",
+			"ParentID": "fc3222794cbd26bce7b050b21793b5bb",
+			"V": {
+	"ball": "fc3222794cbd26bce7b050b21793b5bb"
+},
+			"Enabled": false
+		},
+		{
+			"ID": "f4edffd34293e824db960fb7b194c07b",
+			"PrefabID": "c96040df4960ccd3c234bd966b583c7a",
+			"PrefabObjectID": "2c7ef83442d06db85d1a629d1b697bb7",
+			"ParentID": "fc3222794cbd26bce7b050b21793b5bb",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3aef573849a345627b363eba2e5b2f34",
+			"PrefabID": "c96040df4960ccd3c234bd966b583c7a",
+			"PrefabObjectID": "10c4cd1c4a7b1b456a0e6cb79b4d2920",
+			"ParentID": "fc3222794cbd26bce7b050b21793b5bb"
+		},
+		{
 			"ID": "e55055d9406d350f6bd3c5b0134e7b84",
 			"PrefabID": "e3f7a9044b0835d25b4a51bf61148951",
 			"PrefabObjectID": "6610d7724ad47715766e148fa50ff606",
