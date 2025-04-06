@@ -58,7 +58,6 @@ public class AutomaticLightSystem : Script
         {
             if (element.Item2 is not null)
             {
-                Debug.Log("enable swiatlo");
                 // Register for event
                 element.Item2.As<Collider>().TriggerEnter += element.Item1.OnTriggerEnter;
                 element.Item2.As<Collider>().TriggerExit += element.Item1.OnTriggerExit;

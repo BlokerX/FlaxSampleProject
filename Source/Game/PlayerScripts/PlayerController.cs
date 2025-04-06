@@ -45,8 +45,6 @@ public class PlayerController : Script
 
     public override void OnStart()
     {
-        Debug.Log("PlayerController.OnStart");
-
         Screen.CursorLock = CursorLockMode.Locked;
         Screen.CursorVisible = false;
 
@@ -172,12 +170,12 @@ public class PlayerController : Script
         }
 
 
-        if (yVelocity < 0)
-            Debug.Log("Current yVelocity < 0");
-        else if (yVelocity > 0)
-            Debug.Log("Current yVelocity > 0");
-        else if (yVelocity == 0)
-            Debug.Log("Current yVelocity = " + yVelocity);
+        //if (yVelocity < 0)
+        //    Debug.Log("Current yVelocity < 0");
+        //else if (yVelocity > 0)
+        //    Debug.Log("Current yVelocity > 0");
+        //else if (yVelocity == 0)
+        //    Debug.Log("Current yVelocity = " + yVelocity);
 
         #endregion
     }
